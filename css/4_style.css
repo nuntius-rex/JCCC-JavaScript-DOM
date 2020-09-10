@@ -1,0 +1,19 @@
+
+/*Styles for 2_style.html*/
+
+/*Style all div tags*/
+div{ 
+	border:solid 1px; 
+	margin:10px; 
+} 
+
+/*Style a group (class) by using the . */
+.group{ 
+	background-color:#C0C0C0 
+}
+
+/*Style just one (id) by using the # */
+#justOne{
+	border-color:red; 
+}
+

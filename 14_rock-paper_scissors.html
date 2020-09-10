@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="css/flex_grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script type="text/javascript" src="js/14_rock-paper-scissors.js"></script>
+
+  <style media="screen">
+    #gestureColumn{
+      text-align: center;
+    }
+    .gestureContainer{
+      border:none;
+    }
+    .gesture{
+      border:solid 1px;
+      margin:5px;
+      padding:30px;
+      font-size: 40px;
+    }
+    #Player1_scoreboard{
+      text-align: center;
+      font-size: 40px;
+    }
+    #Player2_scoreboard{
+      text-align: center;
+      font-size: 40px;
+    }
+  </style>
+
+</head>
+  <body>
+
+    <section>
+      <div class="column">
+          <h1>Rock Paper Scissors</h1>
+        </div>
+    </section>
+
+    <section>
+      <div class="column" id="Player1_scoreboard">
+        <!-- Player 1-->
+      </div>
+      <div class="column" id="gestureColumn">
+
+        <p>
+          <label for="userChoice">Can you beat the computer Player 1?
+            <br>Choose rock, paper or scissors:</label>
+
+            <section class="gestureContainer">
+                <div class="gesture" id="rock">
+                  <i class="far fa-hand-rock"></i>
+                </div>
+                <div class="gesture" id="paper">
+                  <i class="far fa-hand-paper"></i>
+                </div>
+                <div class="gesture" id="scissors">
+                  <i class="far fa-hand-scissors"></i>
+                </div>
+          </section>
+
+
+          <input type="hidden" id="userChoice" >
+        </p>
+
+
+
+      </div>
+      <div class="column" id="Player2_scoreboard">
+        <!-- Player 2-->
+      </div>
+    </section>
+
+    <section>
+      <div class="column" id="rps_result">
+        &copy; Dan Guinn, 2019
+      </div>
+      <div class="column" id="winsColumn">
+
+      </div>
+      <div class="column" id="lossColumn">
+
+      </div>
+
+    </section>
+
+
+  </body>
+</html>

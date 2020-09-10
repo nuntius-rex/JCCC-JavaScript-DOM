@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style media="screen">
+      body{font-family: arial}
+    </style>
+  </head>
+  <body>
+    <h1>DOM</h1>
+
+    <p>text text text text text text text text text text text text text text text text text text text text text text text text </p>
+
+    <script type="text/javascript">
+      //Full document as HTML:
+      console.log(document);
+
+      //Document as FULL Object collection
+      console.log(document.all);
+
+      //Call a specific DOM tag
+      console.log(document.getElementsByTagName("html"));
+
+      //Access the documents first direct child element.
+      console.log(document.documentElement);
+
+      //Get the Head as an object
+      console.log(document.getElementsByTagName("head"));
+
+      //Get the head HTML
+      console.log(document.head);
+
+      //==============================
+      //Get Document Info:
+      //==============================
+
+      //Document type:
+      console.log(document.doctype);
+
+      //Mime type:
+      console.log(document.contentType);
+
+      //characterSet
+      console.log(document.characterSet);
+
+      //Title
+      console.log(document.title);
+
+      //Stylesheets
+      console.log(document.styleSheets);
+
+      //Scripts
+      console.log(document.scripts);
+      console.log(document.getElementsByTagName("script"));
+
+      //Body
+      console.log(document.body);
+      console.log(document.getElementsByTagName("body"));
+
+      //When document is loaded
+      console.log(document.readyState);
+
+      //Get document items
+      console.log(document.images);
+      console.log(document.forms);
+      console.log(document.embeds);
+      console.log(document.fonts);
+
+      //Get Document Elements:
+      var paragraphID = document.getElementById("x");
+      var AllofAClass = document.getElementsByClassName("x");
+      var allParagraphs = document.getElementsByTagName("p");
+
+
+      //Design Mode
+      //var mode=document.designMode="on";
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rainbow</title>
+  </head>
+  <body>
+    <h1>Rainbow</h1>
+    <button type="button" name="button" id="Rainbow">Skittles!</button>
+
+    <script type="text/javascript">
+      var button=document.getElementById("Rainbow");
+      var colors=["red","orange","yellow","green","blue","indigo","violet"];
+
+      function changeColor(){
+          var num = Math.floor(6*Math.random());
+          document.body.style.background=colors[num];
+          //console.log(document.all);
+      }
+
+      button.addEventListener("click", changeColor);
+
+    </script>
+
+  </body>
+</html>

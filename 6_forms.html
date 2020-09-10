@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Simple Form Validation</title>
+  <link rel="stylesheet" href="css/flex_grid.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+  <body>
+
+    <h1>Simple Form Validation</h1>
+
+    <section>
+      <div class="column">
+          Header
+        </div>
+    </section>
+
+    <section>
+      <div class="column hidden">
+        1
+      </div>
+      <div class="column">
+
+              <form class="" action="6_forms.html" method="post">
+
+                  <p>
+                    <label for="first_name">First Name</label><br>
+                    <input type="text" id="first_name" name="first_name" value="" maxlength="100">
+                    <br><span class="error" id="first_name_validation"></span>
+                  </p>
+
+                  <p>
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text" id="last_name" name="last_name" value="" maxlength="100">
+                    <br><span class="error"  id="last_name_validation"></span>
+                  </p>
+
+                  <p>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" value="" maxlength="254">
+                    <br><span class="error"  id="email_validation"></span>
+                  </p>
+                  <p>
+                    <input type="submit" name="submit" value="Contact Us">
+                  </p>
+
+              </form>
+
+      </div>
+      <div class="column hidden">
+        3
+      </div>
+    </section>
+
+    <section>
+      <div class="column">
+        Footer
+      </div>
+    </section>
+
+  <script type="text/javascript" src="js/6_forms.js"></script>
+  </body>
+</html>

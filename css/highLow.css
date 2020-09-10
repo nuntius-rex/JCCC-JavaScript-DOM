@@ -1,0 +1,27 @@
+
+h1{
+  font-size: 50px;
+}
+
+#winsColumn{
+  font-size: 40px;
+}
+
+
+#lossColumn{
+  font-size: 40px;
+}
+
+#resultDiv{
+  text-align: center;
+  font-size: 30px;
+}
+
+.Win{
+  background-color: green;
+  color:white;
+}
+.Loss{
+  background-color: red;
+  color:yellow;
+}

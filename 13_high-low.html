@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>High-Low</title>
+  <link rel="stylesheet" href="css/flex_grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/highLow.css">
+  <script type="text/javascript" src="js/13_high-low.js"></script>
+</head>
+  <body>
+
+    <section>
+      <div class="column">
+          <h1>High-Low</h1>
+        </div>
+    </section>
+
+    <section>
+      <div class="column" id="lossColumn">
+            <!-- -->
+      </div>
+      <div class="column">
+          <p>Guess a number between 1-100!</p>
+          <p>
+            <small>Show computer value?</small><input type="checkbox" id="showComputer"><br>
+            <small>Note: If not checked, the system will keep the same number until you guess the right one.</small><br>
+          </p>
+          <p>
+            <form id="userGuessForm">
+              <input type="text" id="userGuess" name="guess_me">
+              <input type="submit" value="submit">
+            </form>
+
+          </p>
+      </div>
+      <div class="column" id="winsColumn">
+          <!-- -->
+      </div>
+    </section>
+
+    <section>
+      <div class="column" id="resultDiv">
+
+      </div>
+    </section>
+
+
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Coin Flip</title>
+  <link rel="stylesheet" href="css/flex_grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/coinFlip.css">
+  <script type="text/javascript" src="js/12_coinFlipApp.js"></script>
+</head>
+  <body>
+
+
+
+    <section>
+        <div class="column">
+          <h1>Coin Flip</h1>
+        </div>
+    </section>
+
+    <section>
+      <div class="column" id="lossColumn">
+        <!-- losses -->
+      </div>
+      <div class="column" id="coinContainer">
+
+          <p>
+                Coin Flip<br>
+                Choose Heads or Tails:<br>
+                <select id="userChoice">
+                  <option value=""></option>
+                  <option value="Heads">Heads</option>
+                  <option value="Tails">Tails</option>
+                </select>
+                <input type="button" id="resetBTN" value="Reset">
+
+                <div class="flip-box">
+                  <div id="innerBox" class="flip-box-inner hidden">
+                    <div class="flip-box-front">
+                      <img src="img/Heads.jpg" alt="Heads">
+                    </div>
+                    <div class="flip-box-back">
+                      <img src="img/Tails.jpg" alt="Tails">
+                    </div>
+                  </div>
+                </div>
+            </p>
+
+      </div>
+      <div class="column" id="winsColumn">
+        <!-- wins -->
+      </div>
+    </section>
+
+    <section>
+      <div class="column">
+
+          <div id="flipResult">
+            &nbsp;
+          </div>
+
+
+      </div>
+    </section>
+
+
+  </body>
+</html>

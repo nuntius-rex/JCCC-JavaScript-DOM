@@ -1,0 +1,19 @@
+
+/*referenced in 5_events*/
+#clickCounter_result{
+  border:solid 5px; margin:30px; padding:10px
+}
+
+.dogImage{
+  width:200px;
+  height:100px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.error{
+  color:red;
+  font-size: 12px;
+}
